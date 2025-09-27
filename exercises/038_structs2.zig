@@ -1,6 +1,6 @@
 //
 // Grouping values in structs is not merely convenient. It also allows
-// us to treat the values as a single item when storing them, passing
+// us  to treat the values as a single item when storing them, passing
 // them to functions, etc.
 //
 // This exercise demonstrates how we can store structs in an array and
@@ -31,6 +31,12 @@ pub fn main() void {
         .gold = 20,
         .health = 100,
         .experience = 10,
+    };
+    chars[1] = Character{
+        .role = Role.bard,
+        .gold = 10,
+        .health = 100,
+        .experience = 20,
     };
 
     // Please add "Zump the Loud" with the following properties:
